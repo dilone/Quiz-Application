@@ -59,7 +59,7 @@ import { router } from '@inertiajs/vue3';
     <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
       <div class="d-flex gap-2 w-100 justify-content-between">
         <div>
-          <h6 class="mb-0">{{currentQuestion.question}}</h6>
+          <h6 class="mb-0">{{currentQuestion?.question}}</h6>
         </div>
       </div>
     </a>
